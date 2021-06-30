@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Consultar Cep </title>
+	<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="images/favi_144.jpg" />
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="menu"> 
+<ul>
+<li> <a href="#">Consultar</a> </li>
+<li> <a> Como funciona?</a></li>
+<li> <a href="https://github.com/JonasCaetanoSz" target="_blank">Desenvolvedor </a></li>
+<li> <a href="https://postmon.com.br/" target="_blank"> API</a></li>
+</ul>
+</nav>
+<div class="info">
+	
+	<button class="close"> X </button>
+
+	<h1 class="title"> Como funciona ?</h1>
+
+	<p class="response">Este site utiliza a API Gratuita <a href="https://postmon.com.br/" s> postmon</a> 
+ para obter Informações de um cep que o usuario deseja consulta,
+a utilização desse sistema e bem simples basta adicionar o cep que deseja saber mais 
+detalhes na caixa de entrada e clicar em "buscar" o resultado pode demorar até 10 segundos para aparecer na sua tela. 
+	</p>
+
+</div>
+<main>
+
+	<div class="content-input">
+		
+    <input type="number" name="Cep" class="Cep" placeholder="DIGITE O CEP DE CONSULTA">
+    <button class="buscar">Buscar</button>
+
+    <h1 class="aguarde" hidden="true">PESQUISANDO...</h1>
+    
+	</div>
+
+<div class="result" hidden="true"> <hr class="es">
+	<h1 class="result -text">RESULTADO DE CONSULTA :</h1> <br>
+	<p class="estado "></p>
+	<p class="cidade"></p>
+	<p class="bairro "></p>
+	<p class="rua"></p>
+	<p class="area"></p>
+	<p class="cep2"></p>
+	<hr class="es">
+</div>
+</main>
+
+</body>
+	<script type="text/javascript" src="modulos/module:1.js"></script>
+
+</html>
