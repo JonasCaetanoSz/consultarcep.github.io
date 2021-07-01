@@ -1,15 +1,14 @@
 
-## Site para Consultar Códigos postais Brasileiros De forma Rapida.
+## Site para Consultar Códigos postais Brasileiros .
 
 
- Como foi Desenvolvido ?
+para utilizar acesse :  https://jonascaetanosz.github.io/consultarcep.github.io/
 
- Esta aplicação utiliza Javascript Html e css Apenas em sua interface.
- 
- 
- 
- 
+caso queira clonar o repositorio use :  git clone https://github.com/JonasCaetanoSz/consultarcep.github.io.git
 
- Posso utilizar parte ou totalmente algo deste projeto?
 
- Sim todos tem permissão para utilizar qualquer parte do codigo deste repositorio.
+## contato co o desenvolvedor :
+
+telefone : (032) 3225-5736
+
+email : smasllercode@gmail.com
