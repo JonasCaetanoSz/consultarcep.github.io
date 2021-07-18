@@ -153,7 +153,10 @@ text-decoration: none;
 line-height: 20px;
 margin-top: 5px;
  }
-
+ 
+ .content {
+ margin-top:7rem;
+ }
  .info{
  width: 280px;
  margin: : 10px;
